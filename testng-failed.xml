@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="HarshaProject(failed)">
+    <classes>
+      <class name="SeleniumPractice.RahulShettyPractice">
+        <methods>
+          <include name="endSession"/>
+          <include name="dropDown"/>
+          <include name="getURL"/>
+        </methods>
+      </class> <!-- SeleniumPractice.RahulShettyPractice -->
+    </classes>
+  </test> <!-- HarshaProject(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

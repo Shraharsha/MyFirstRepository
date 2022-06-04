@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rahul Shetty Automation Practice]">
+  <parameter name="Name" value="Harsha"/>
+  <test name="rahulshettypractice(failed)">
+    <parameter name="Name" value="Harsha"/>
+    <classes>
+      <class name="rahulshettytests.MediumTests">
+        <methods>
+          <include name="switchTabs"/>
+          <include name="getURL"/>
+          <include name="EndSession"/>
+          <include name="switchAlert" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- rahulshettytests.MediumTests -->
+      <class name="rahulshettytests.BasicTests">
+        <methods>
+          <include name="endSession"/>
+          <include name="getURL"/>
+          <include name="dropDownTest"/>
+          <include name="autoCompleteTest"/>
+        </methods>
+      </class> <!-- rahulshettytests.BasicTests -->
+    </classes>
+  </test> <!-- rahulshettypractice(failed) -->
+</suite> <!-- Failed suite [Rahul Shetty Automation Practice] -->
