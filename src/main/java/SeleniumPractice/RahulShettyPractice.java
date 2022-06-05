@@ -66,5 +66,13 @@ public class RahulShettyPractice {
     public void clickOnAlertButton() {
         driver.findElement(By.id("alertbtn")).click();
     }
+
+    public List<WebElement> getListofElementsinAmountColumn() {
+        return driver.findElements(By.xpath("//*[@id='product']/tbody/tr/td[4]"));
+    }
+
+    public WebElement getTotalAmountCollected() {
+        return driver.findElement(By.xpath("//div[@class='totalAmount']"));
+    }
 }
 
